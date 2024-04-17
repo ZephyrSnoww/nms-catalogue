@@ -1,0 +1,35 @@
+:root {
+  --orange: #ff8400;
+}
+
+* {
+  box-sizing: border-box;
+  cursor: none;
+  user-select: none !important;
+}
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(20deg, #110015 0%, #0a0011 100%);
+  color: #ffffff;
+  overflow: hidden;
+  font-family: "hyperspace", monospace;
+  font-size: 24px;
+}
+
+@font-face {
+  font-family: "zector";
+  src: url("/fonts/zector.ttf");
+}
+
+@font-face {
+  font-family: "vcr";
+  src: url("/fonts/vcr-osd.ttf");
+}
+
+@font-face {
+  font-family: "hyperspace";
+  src: url("/fonts/hyperspace.otf");
+}
